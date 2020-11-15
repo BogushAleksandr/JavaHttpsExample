@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2020. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- * Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
- * Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
- * Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
- * Vestibulum commodo. Ut rhoncus gravida arcu.
- */
-
 package com.ua.in.nova.https.util;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -14,11 +6,13 @@ import java.net.URL;
 import java.security.cert.*;
 import java.util.Base64;
 import java.security.cert.Certificate;
-/*
-* @author Sasha
-*
-*
-* */
+
+/**
+ * @author Bogush Aleksandr
+ * @version 1.0
+ * @since 15-11-2020
+ */
+
 public class JavaHttpsExample {
     public static void main(String[] args) throws IOException, CertificateEncodingException {
         String httpsURL = "https://google.com/";
